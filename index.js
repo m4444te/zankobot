@@ -10,7 +10,7 @@ const config = {
   accessToken: process.env.FEDIVERSE_ACCESS_TOKEN,
   imageFolder: process.env.IMAGE_FOLDER || './images',
   postedFolder: process.env.POSTED_FOLDER || './posted',
-  statusText: process.env.STATUS_TEXT || '#ZoltanAsanski #Photography #Art',
+  statusText: process.env.STATUS_TEXT,
   postInterval: 15 * 60 * 1000 // 15 minutes in milliseconds
 };
 
